@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    background-color: lightblue;
+    height: 100vh;
+    border: 6px blue;
+    align-items:center ;
+    justify-content: center;
+}
+.box{
+    background-color: brown;
+    color: black;
+    border: 6px solid blue;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
