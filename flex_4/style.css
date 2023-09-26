@@ -1,0 +1,42 @@
+body{
+    background-image:url(ohm.jpg);
+}
+.container {
+    text-align: center;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 32px;
+}
+
+.ohm {
+    display: flex;
+    gap: 96px;
+    justify-content: center;
+}
+
+img {
+    height: 280px;
+    width: 280px;
+    border: 8px solid yellowgreen;
+}
+h1{
+    font-style: italic;
+    font-size: 92px;
+    font-weight: bolder;
+    color: red;
+}
+p{
+    font-size: 66px;
+    color:black;
+    font-weight: bolder;
+    font-style: italic;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+.contribution{
+    text-align: right;
+    align-self: flex-end;
+}
