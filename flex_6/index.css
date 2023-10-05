@@ -1,0 +1,45 @@
+.head, .tail{
+    /* border: 2px solid red; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #eeeeee;
+}
+.left, .right{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3.8%;
+    flex-shrink: 1; /* Prevent child elements from shrinking */
+    flex-basis: 0;
+}
+a{
+    margin-left: 5%;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.bod{
+    /* border: 2px solid blue; */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+input{
+    border-radius: 10%;
+}
+.buttons{
+    margin-top:2% ;
+    margin-bottom: 15%;
+}
+button{
+    background-color: #eeeeee;
+    border-radius: 22%;
+}
